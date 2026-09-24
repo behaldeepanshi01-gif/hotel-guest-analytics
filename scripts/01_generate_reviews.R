@@ -9,6 +9,9 @@
 # =============================================================================
 
 library(tidyverse)
+dir.create("data/raw", recursive = TRUE, showWarnings = FALSE)
+dir.create("data/processed", recursive = TRUE, showWarnings = FALSE)
+dir.create("output/plots", recursive = TRUE, showWarnings = FALSE)
 library(lubridate)
 
 set.seed(515)
